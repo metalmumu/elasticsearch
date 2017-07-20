@@ -15,7 +15,7 @@ undetected so this leniency has been removed.
 
 Elasticsearch attempts to set the kernel parameter `vm.max_map_count` during
 installation. In some environments this can fail. Previous versions of
-Elasticsearch accepted a flag `ES_SKIP_SET_KERNEL_PARAMTERS` to skip this
+Elasticsearch accepted a flag `ES_SKIP_SET_KERNEL_PARAMETERS` to skip this
 writing. Starting in Elasticsearch 5.5.0, this flag has been removed and
 instead the same functionality can be achieved by masking the `systemd-sysctl`
 service.
